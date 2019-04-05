@@ -1,0 +1,5 @@
+create table complaint(complaint_id number(10) primary key,customer_name varchar2(50) not null,account_no number(16) not null,dispute_date date not null,
+dispute_reason varchar2(50) not null,customer_remark varchar2(50) not null,complaint_status varchar2(10) not null,bank_remark varchar2(50) not null);
+
+create table customer_details(first_name varchar2(50) not null,last_name varchar2(50) not null,age number(2) not null,gender varchar2(6) not null,contact_no number(10),
+city varchar2(15) not null,state varchar2(15) not null,account_no varchar2(15)not null,userid varchar2(50) not null,password varchar2(15) not null);
