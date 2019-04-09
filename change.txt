@@ -1,0 +1,30 @@
+CustomerRegistration.jsp
+--------------------------------------------
+<head>
+	<script src="js/CustomerRegister.js"></script>
+</head>
+<body>
+	<form>
+		<button type="button" onclick="customerValidate()">Submit</button>
+	</form>
+</body>
+
+comp.jsp
+---------------------------------------------
+<head>
+	<script src="js/complaint.js"></script>
+</head>
+<body>
+	<form>
+		<div id="red"></div>
+		<p>Dispute transaction date:<input type="text" name="ddate">(dd/MM/yyyy)</p>
+		<button type="button" onclick="complaintValidate()">Submit</button>
+	</form>
+</body>
+
+--------------------------------------------
+folder structure:
+view -->js -->complaint.js
+     |	      CustomerRegister.js
+     |--->comp.jsp
+	  CustomerRegistration.jsp
